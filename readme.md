@@ -1,3 +1,11 @@
+Laravel project for the selection and reserve of yachts. 
+(Laravel проект для выбора и резерва яхт. Позволяет выбирать яхту, дату резерва, кол-во дней. Показывает, свободна ли данная яхта в этот временной промежуток и если да, то считает стоимость).
+Проект еще в разработке.
+Планируется реализация:
+- системы бронирования,
+- системы онлайн оплаты.
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
