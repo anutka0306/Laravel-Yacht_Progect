@@ -1,0 +1,98 @@
+@media (max-width: 1199px) {
+    .yacht-offer_item{
+        width: 200px;
+    }
+    .yacht-offer_item__btn{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .number-guests input.booking_input{
+        width: 80% !important;
+    }
+    .number-guests span.minus, .number-guests span.plus{
+        width: 10% !important;
+    }
+    .booking_form{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .yacht-offer_item{
+        width: 150px;
+        height: 318px;
+    }
+    .yacht-offer_item__discount{
+        flex-direction: column;
+    }
+    .yacht-offer_item__discount>div{
+        width: 100% !important;
+    }
+    .yacht-offer_item__discount>div:nth-child(2){
+        justify-content: center !important;
+    }
+    .yacht-offer_item__discount>div:nth-child(2) a{
+        margin-right: 0;
+    }
+    .yacht-offer_item__discount>div:nth-child(1)>div{
+        justify-content: space-between;
+    }
+    .discount-price{
+        margin-right: 7px;
+    }
+
+    .yacht-item_card_price-section{
+        flex-direction: column;
+    }
+    .see-more_btn{
+        justify-content: center;
+        height: 35px;
+    }
+    .yacht-page__specifications_header_main-spec{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .yacht-page__specifications_header_main-spec span{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .yacht-offer_item{
+        width: 300px;
+        height: 240px;
+        margin: 10px auto;
+
+    }
+    .yacht-offer_item__discount{
+        flex-direction: row;
+    }
+    .yacht-offer_item__discount>div{
+        width: 50% !important;
+    }
+    .yacht-offer_item__discount>div:nth-child(2){
+        justify-content: flex-end !important;
+    }
+    .yacht-offer_item__discount>div:nth-child(2) a{
+        margin-right: 10px;
+    }
+    .discount-price{
+        font-size: 26px;
+        color: #ff9800;
+        display: block;
+        margin: -17px 0 0 45px;
+    }
+    .number-guests span.minus, .number-guests span.plus{
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 422px) {
+    .see-more_btn{
+        font-size: 12px;
+    }
+}
+

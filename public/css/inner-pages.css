@@ -1,0 +1,372 @@
+.yachts-list__wrapper{
+    padding-top: 107px;
+    padding-bottom: 114px;
+}
+
+.booking_form_container__inner-page{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.booking_input_container__inner-page{
+    width: 100%;
+}
+
+.booking_input_container__inner-page > div{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.booking-input_dark{
+    background: rgba(255,255,255,0.2);
+    border: solid 2px #666666;
+    color: #666666;
+}
+
+.booking-input_dark::-webkit-input-placeholder
+{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #666666 !important;
+}
+.booking-input_dark:-moz-placeholder
+{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #666666 !important;
+}
+.booking-input_dark::-moz-placeholder
+{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #666666 !important;
+}
+.booking-input_dark:-ms-input-placeholder
+{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #666666 !important;
+}
+.booking-input_dark::input-placeholder
+{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #666666 !important;
+}
+
+.booking_input_container__inner-page .booking_button{
+    width: 100%;
+}
+.booking_input_container__inner-page .booking_button:hover{
+    background: #ff9800;
+}
+.yachts-offers__wrapper{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+#yachts-offers__tabs.ui-widget.ui-widget-content{
+    border: none !important;
+}
+#yachts-offers__tabs ul li{
+    background: transparent !important;
+    border: none !important;
+}
+#yachts-offers__tabs ul li.ui-tabs-active{
+    border-bottom: 5px solid #76BAE3 !important;
+}
+
+#yachts-offers__tabs ul li a{
+    color: #76BAE3 !important;
+    font-weight: 900 !important;
+    text-transform: capitalize;
+    font-size: 18px !important;
+}
+.yacht-offers_title {
+    margin-bottom: 20px !important;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+.discount-percent {
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0 10px;
+    background-color: #76BAE3;
+    color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .1);
+
+}
+
+.discount-price{
+    font-family: sans-serif;
+    color: #333;
+    font-weight: 600;
+}
+
+.offert-date{
+    background: rgba(255,255,255,.7);
+    width: 100px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: #ff9800;
+}
+
+#yachts-offers__tabs .container-fluid, #yachts-offers__tabs .container-fluid > .row div{
+    padding-left: 0 !important;
+}
+
+.yachts-offers__wrapper .ui-widget-header{
+    background: transparent;
+    border-bottom: 2px solid #e1e4e7;
+    border-left:none !important;
+    border-top:none !important;
+    border-right: none !important;
+
+}
+
+.yacht-offer_item{
+    width: 230px;
+    height: 242px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    border: 1px solid #e1e4e7;
+}
+
+.yacht-offer_item__image{
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.yacht-offer_item__price-section hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.yacht-offer_item__btn{
+    display: block;
+    margin-right: 10px;
+    padding: 5px 12px;
+    color: #fff !important;
+    text-transform: capitalize;
+    border-radius: 3px;
+    background-color: #ff9800;
+    border: 2px solid #ff9800;
+}
+
+.yacht-offer_item__btn:hover{
+    background-color: #fff;
+    border: 2px solid #ff9800;
+    color: #ff9800 !important;
+}
+
+.old-price{
+    margin-left: 10px;
+    font-family: sans-serif;
+    text-decoration: line-through;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+
+.yacht-item{
+    width: 100%;
+    height: 244px;
+    margin-top: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+    border: 1px solid #e1e4e7;
+}
+
+.yacht-item_image{
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.yacht-item_card{
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.yacht-item_name{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.yacht-item-param{
+    display: block;
+    padding-left: 10px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 5px;
+}
+.yacht-item_card_price-section{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.yacht-item_card_price-section p{
+    color: #FF9800;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.yacht-item_card_price-section p span{
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+}
+.see-more_btn{
+    display: block;
+    padding: 0 30px;
+    background: #fff;
+    border: 2px solid #ff9800;
+    color: #ff9800;
+    font-weight: bold;
+}
+.see-more_btn:hover{
+    padding: 0 30px;
+    background: #ff9800;
+    border: 2px solid #ff9800;
+    color: #fff;
+    font-weight: bold;
+}
+.see-more_btn i{
+    padding-left: 7px;
+}
+
+.number-guests input.booking_input{
+    width: 127px !important;
+}
+
+.number-guests span.minus, .number-guests span.plus{
+    display: block;
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
+    background: rgba(0,0,0,0.1);
+    border: solid 2px #666666;
+    color: #666666;
+    font-weight: 600;
+    font-size: 20px;
+}
+.number-guests span.minus{
+    border-right: none;
+}
+.number-guests span.plus{
+    border-left: none;
+}
+.left-form__label{
+    width: 100%;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 2px;
+}
+.search-form__header{
+    height: 100px;
+}
+
+.yacht-thumb{
+    width: 85px;
+    height: 85px;
+    flex: 0 0 auto;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.grey-hr{
+    height: 1px;
+    width: 100%;
+}
+.search-form__price{
+    padding: 5px 0;
+    margin-top: 0 !important;
+}
+.search-form__price_label, .search-form__price_price{
+    font-weight: 600;
+    color: #666;
+    font-size: 16px;
+}
+
+.yacht-page__wrapper{
+    width: 100%;
+}
+
+.yacht-page__header{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.yacht-page__specifications{
+    margin: 30px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.yacht-page__specifications>div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.yacht-page__specifications_header_main-spec{
+    margin-top: 20px;
+}
+
+
+.yacht-page__specifications_header_main-spec span{
+    padding: 3px 10px;
+    background: #76BAE3;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-right: 10px;
+}
+.yacht-page__specifications_about, .yacht-page__specifications_specifications, .yacht-page__specifications_equipment, yacht-page__specifications_check{
+    font-size: 15px;
+    color: #6d6d6d;
+}
+
+.yacht-page__specifications_specifications .spec-item{
+    margin-top: 20px;
+}
+
+.blue-spec{
+    color: #76BAE3;
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.exclamation-equipment{
+    margin-bottom: 15px !important;
+}
+.exclamation-equipment i{
+    color: #ff9800;
+}
+.equipment-column span{
+    display: block;
+    margin-bottom: 7px;
+}
+.link_disabled{
+    pointer-events: none;
+    cursor: default;
+}
+.link_disabled>button{
+    background: #ccc;
+}
+
